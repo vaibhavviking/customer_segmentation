@@ -1,0 +1,11 @@
+df_initial : our original dataset with duplicates removed
+df_phase2 : country names changed to countryID
+df_phase3 : removed doubful and cancelled entries, added Total Price (unit_price*quantity) column
+df_phase4 : contains stock code, description and the corresponding category of product
+df_phase5 : one column for each product category added into df_phase3
+df_phase6 : converted df_phase5 to dataframe
+df_phase7 : clubbed all stockcodes into invoices
+df_phase8 : clubbed all invoices into customerID
+df_phase9 : df_phase8 converted to dataframe
+
+
